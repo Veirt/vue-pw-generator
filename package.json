@@ -8,7 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9",
     "core-js": "^3.6.5",
+    "generate-password": "^1.6.0",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -26,7 +31,8 @@
     "eslint-plugin-vue": "^7.0.0-0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
-    "typescript": "~3.9.3"
+    "typescript": "~3.9.3",
+    "vue-cli-plugin-tailwind": "~2.0.6"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
