@@ -89,6 +89,7 @@
 <script>
 import generator from "generate-password";
 export default {
+  name: "Generator",
   data() {
     return {
       password: "",
